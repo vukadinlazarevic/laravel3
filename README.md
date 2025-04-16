@@ -1,6 +1,6 @@
 Da biste preuzeli ovaj projekat pokrenite sledecu komandu
 
-git clone https://github.com/vukadinlazarevic/laravel2.git
+git clone https://github.com/vukadinlazarevic/laravel3.git
 
 Zatim, odradite instalaciju svih neophodnih paketa
 
