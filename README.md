@@ -21,3 +21,17 @@ php artisan migrate
 Na kraju svega, instalirati kljuc za applikaciju
 
 php artisan key:generate
+
+---------------------------------------------------
+
+Da biste pokrenuli migraciju uradite 
+
+`php artisan migrate`
+
+Da biste pokrenuli seed baze 
+
+`php artisan db:seed`
+
+Da biste pokrenuli celu aplikaciju
+
+`composer run dev` ili `php artisan serve`
