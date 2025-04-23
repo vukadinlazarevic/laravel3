@@ -11,6 +11,20 @@
     <title>@yield("title")</title>
   </head>
   <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="{{ route('blog.list') }}">Blog</a>
+        <div class="navbar-nav d-flex">
+          @if (Auth::check()) 
+            <a class="nav-link" href="{{ route('logout') }}">Logout</a>
+          @else 
+            <a class="nav-link" href="{{ route('register') }}">Registracija</a>
+            <a class="nav-link" href="{{ route('login') }}">Login</a>
+          @endif
+        </div>
+      </div>
+    </nav>
     
     <div class="container py-4">
         @yield("content")
